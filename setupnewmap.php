@@ -46,7 +46,7 @@ class SetNewMap extends JApplicationCli
 	public function doExecute()
 	{
 		//Prompts user for address
-		echo "Please enter address, city state and zip code: ";
+		echo "Please enter address, city state and zip code: \n";
 		$address = fgets(STDIN);
 		
 		//Enables new map plug in
